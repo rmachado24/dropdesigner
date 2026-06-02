@@ -3,7 +3,7 @@ import pandas as pd
 from typing import Any
 import streamlit as st
 
-from DropDesigner.src.dropdesigner.paths import DATA_DIR, CANALS_DIR, RUBICON_DIR
+from dropdesigner.paths import DATA_DIR, CANALS_DIR, RUBICON_DIR
 
 
 def load_json(filename: str) -> Any:
