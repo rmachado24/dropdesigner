@@ -1,7 +1,7 @@
 import streamlit as st
 
-from DropDesigner.src.dropdesigner.loader import load_flumegates
-import DropDesigner.src.dropdesigner.flowcalc as fc
+from dropdesigner.loader import load_flumegates
+import dropdesigner.flowcalc as fc
 
 # Load Rubicon Flumegate Data
 df = load_flumegates()
