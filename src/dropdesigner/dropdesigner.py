@@ -1,7 +1,7 @@
 import streamlit as st
 
-from loader import load_flumegates
-import flowcalc as fc
+from DropDesigner.src.dropdesigner.loader import load_flumegates
+import DropDesigner.src.dropdesigner.flowcalc as fc
 
 # Load Rubicon Flumegate Data
 df = load_flumegates()
@@ -9,7 +9,7 @@ gateData = df.to_dict("records")
 
 # Page Setup
 st.set_page_config(
-    page_title="Drop Builder",
+    page_title="Drop Designer",
     layout="wide"
 )
 

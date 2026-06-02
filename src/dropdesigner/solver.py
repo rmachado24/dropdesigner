@@ -1,4 +1,4 @@
-from flowcalc import lcwFlow, boardsFlow, featureFlow, dropFlow
+from DropDesigner.src.dropdesigner.flowcalc import lcwFlow, boardsFlow, featureFlow, dropFlow
 from scipy.optimize import brentq
 
 def usDropSolveWSE(targetQ, dsWSE, drop):
